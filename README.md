@@ -19,18 +19,26 @@ Mentor de estudos inteligente que utiliza IA para gerar cronogramas semanais per
 ## Instalação
 
 1. Clone o repositório:
-git clone https://github.com/SEU_USUARIO/syncroedu.git
+```bash
+git clone [https://github.com/SEU_USUARIO/syncroedu.git](https://github.com/SEU_USUARIO/syncroedu.git)
+```
 
 2. Instale as dependências:
+```bash
 npm install
+```
 
-3. Configure o arquivo .env na raiz do projeto:
+3. Configure o arquivo `.env` na raiz do projeto:
+```env
 EXPO_PUBLIC_GEMINI_API_KEY=sua_chave_aqui
 EXPO_PUBLIC_SUPABASE_URL=sua_url_aqui
 EXPO_PUBLIC_SUPABASE_ANON_KEY=sua_key_aqui
+```
 
 4. Inicie o projeto:
+```bash
 npx expo start -c
+```
 
 ## Autor
 Desenvolvido por Lucas Gabriel de Oliveira.
